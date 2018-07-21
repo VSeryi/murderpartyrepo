@@ -21,6 +21,6 @@ En el caso de ser un gran aportador le explicaremos como añadir el directamente
 
 ### Juegos Actuales
 
-- [The Business Of Murder](/the-business-of-murder/):
+- [The Business Of Murder](https://vseryi.github.io/murderpartyrepo/the-business-of-murder/):
     - [Original (Inglés)](http://www.darkshire.net/jhkim/rpg/murder/business.html)
     - [Español](https://vseryi.github.io/murderpartyrepo/assets/games/TheBusinessOfMurder-ES-ParaImprimir.zip)
