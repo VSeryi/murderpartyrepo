@@ -1,6 +1,6 @@
 # Murder Mystery Repo
 
-![Free Jekyll Theme Pintereso](assets/images/logo-big.jpg)
+![Free Jekyll Theme Pintereso](assets/images/logo-big.png)
 
 
 ¡Bienvenidos a todos a Murder Party Repo!
@@ -23,4 +23,4 @@ En el caso de ser un gran aportador le explicaremos como añadir el directamente
 
 - [The Business Of Murder](/the-business-of-murder/):
     - [Original (Inglés)](http://www.darkshire.net/jhkim/rpg/murder/business.html)
-    - [Español](/assets/games/TheBusinessOfMurder-ES-ParaImprimir.zip)
+    - [Español](https://vseryi.github.io/murderpartyrepo/assets/games/TheBusinessOfMurder-ES-ParaImprimir.zip)
