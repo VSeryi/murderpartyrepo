@@ -1,0 +1,43 @@
+# Site
+name: 'Murder Party Repo'
+description: 'Un repositorio donde mantener todos los juegos de asesinato y misterio que sean actualmente gratuitos.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

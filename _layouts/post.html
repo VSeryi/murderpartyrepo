@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<section class="bg-gray200 pt-5 pb-5">    
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="col-md-8">
+                
+    			<article class="card">
+                    
+                 {% if page.image %} 
+                    <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                {% endif %}
+                    
+    			<div class="card-body">
+                    
+    				<h1 class="display-4">
+    				    {{page.title}} 
+                    </h1>                    
+                     
+                    <small class="text-muted d-block mb-3">
+                        {% unless page.metadate == "hide" %} 
+                            {{ page.date | date: '%B %d, %Y' }} 
+                        {% endunless %}
+                        {% if page.author %}
+                            , by {{page.author | capitalize}} 
+                        {% endif %}
+                    </small>                    
+                    
+    				{{ content }}
+                    
+                    {% for link in page.links %}
+                    <p><a target="_blank" href="{{link[1]}}" class="btn btn-gray d-block font-weight-bold">
+                        {{link[0]}} <i class="fas fa-download"></i></a>
+                    </p>
+                    {% endfor %}
+                    
+                    {% for category in page.categories %}
+                      <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/categories.html/#{{ category | downcase }}">
+                        # {{ category | downcase }}
+                      </a>
+                    {% endfor %}
+                    
+    			</div>  
+                    
+    			</article>
+                
+                <div class="PageNavigation">
+                  {% if page.next.url %}
+                    <a class="prev" href="{{site.baseurl}}{{page.next.url}}"><i class="fa fa-angle-left"></i> </a>
+                  {% endif %}
+                  {% if page.previous.url %}
+                    <a class="next" href="{{site.baseurl}}{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
+                  {% endif %}
+                </div>
+                
+    		</div>
+    	</div>
+    </div>
+</section>

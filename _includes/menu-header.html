@@ -1,0 +1,16 @@
+<!--  Replace top menu links here -->
+
+{% assign current = page.url | downcase | split: '/' %}
+
+<li class="nav-item">
+	<a {% if current.size == 0 %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="{{site.baseurl}}/">Inicio</a>
+</li>
+<li class="nav-item">
+    <a {% if current[1] == "categories.html" %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="{{site.baseurl}}/categories.html">Categorías</a>
+</li>
+<li class="nav-item">
+    <a {% if current[1] == "contact.html" %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="{{site.baseurl}}/contact.html">Contacto</a>
+</li>
+<li class="nav-item">
+    <a {% if current[1] == "about.html" %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="{{site.baseurl}}/about.html">Nosotros</span></a>
+</li>

@@ -1,13 +1,16 @@
-# Murder Mystery Repo
+---
+title: "Nosotros"
+permalink: "/about.html"
+subimage: "/assets/images/logo-big.png"
+---
 
-![Free Jekyll Theme Pintereso](assets/images/logo-big.jpg)
+<p><center><img src="{% if page.subimage contains "://" %}{{ page.subimage }}{% else %}{{ page.subimage | absolute_url }}{% endif %}"></center></p>
 
-
-¡Bienvenidos a todos a Murder Party Repo!
+<p><center>¡Bienvenidos a todos a Murder Party Repo!</center></p>
 
 Siendo un novato en el mundo de las Murder Parties me puse a buscar juegos para poder empezar con unos amigos.
 
-Tras una larga búsqueda encontre una [buena comunidad](http://labsk.net/index.php?topic=6871.0) dada a compartir trabajos y juegos elaborados a través de su esfuerzo traduciendolos de el único idioma en el que se encuentran normalmente, el inglés.
+Tras una larga búsqueda encontre una <b>[buena comunidad](http://labsk.net/index.php?topic=6871.0)</b> dada a compartir trabajos y juegos elaborados a través de su esfuerzo traduciendolos de el único idioma en el que se encuentran normalmente, el inglés.
 
 Lástimosamente la mayoría que me encontre eran links caídos por lo que decidí crear este Github Page para poder almacenarlas en un lugar donde sepamos que durará bastante tiempo.
 
@@ -17,10 +20,4 @@ Cualquiera puede enviarnos juegos para su publicación ya sea mediante pull requ
 
 En el caso de ser un gran aportador le explicaremos como añadir el directamente a la web los contenidos.
 
-¡Muchas gracias a todos y esperamos que disfruten!
-
-### Juegos Actuales
-
-- [The Business Of Murder](/the-business-of-murder/):
-    - [Original (Inglés)](http://www.darkshire.net/jhkim/rpg/murder/business.html)
-    - [Español](/assets/games/TheBusinessOfMurder-ES-ParaImprimir.zip)
+<p><center>¡Muchas gracias a todos y esperamos que disfruten!</center></p>
