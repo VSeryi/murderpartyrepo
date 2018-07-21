@@ -4,6 +4,7 @@ description: 'Un repositorio donde mantener todos los juegos de asesinato y mist
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
+email: 'murderpartyrepo@outlook.com'
 
 include: ["_pages"]
 permalink: /:title/
