@@ -3,7 +3,7 @@ name: 'Murder Party Repo'
 description: 'Un repositorio donde mantener todos los juegos de asesinato y misterio que sean actualmente gratuitos.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ''
+baseurl: '/murderpartyrepo/'
 email: 'murderpartyrepo@outlook.com'
 
 include: ["_pages"]
