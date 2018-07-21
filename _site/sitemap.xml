@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/the-business-of-murder/</loc>
+<loc>http://localhost:4000/murderpartyrepo/the-business-of-murder/</loc>
 <lastmod>2018-07-21T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about.html</loc>
+<loc>http://localhost:4000/murderpartyrepo/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories.html</loc>
+<loc>http://localhost:4000/murderpartyrepo/categories.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact.html</loc>
+<loc>http://localhost:4000/murderpartyrepo/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/murderpartyrepo/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/privacy-policy.html</loc>
+<loc>http://localhost:4000/murderpartyrepo/privacy-policy.html</loc>
 </url>
 </urlset>
